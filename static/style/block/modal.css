@@ -1,0 +1,246 @@
+
+
+
+
+.cardss {
+  text-align: center;
+  
+  
+}
+
+.fade-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(25px);
+  z-index: 0;
+}
+
+.card-header {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+  margin-top: 42px;
+  margin-bottom: 45px;
+}
+.form-coment {
+  padding: 10px 148px 47px 21px;
+  width: 580px;
+  background: #FFFFFF;
+  border: 1px solid #A2A2A2;
+  border-radius: 9px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+
+}
+
+.form-modal a:nth-child(2) {
+  margin-left: 0;
+}
+.form-modal {
+  padding: 13px 177px 13px 21px;
+  background: #FFFFFF;
+  border: 1px solid #A2A2A2;
+  border-radius: 9px;
+  margin-left: 215px;
+  
+  
+}
+.form-modal2 {
+  padding: 13px 177px 13px 21px;
+  background: #FFFFFF;
+  border: 1px solid #A2A2A2;
+  border-radius: 9px;
+  margin-left: 25px;
+  
+  
+}
+
+.flex-input {
+  display: flex;
+  justify-content: space-between;
+  max-width: 750px;
+  margin-bottom: 18px;
+}
+
+.modal-window {
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 1180px;
+  height: 392px;
+  background-image: url(../Mask\ Group.svg); */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 11;
+  width: 1180px;
+  height: 392px;
+  background-color: white;
+}
+
+.content-hidden {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+[data-name], [data-tab] {
+  cursor: pointer;
+}
+.modal-body {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 12;
+  width: 1180px;
+  height: 392px;
+  background-image: url(../Mask\ Group.png);
+  margin: 0 auto 0 auto;
+  box-shadow: 0px 0px 35px rgba(212, 20, 90, 0.25);
+
+}
+
+.btn-modal>a>img {
+  max-width: 360px;
+  text-align: center;
+}
+
+.btn-modal {
+  text-align: center;
+  border-radius: 30px;
+  
+}
+.btn-modal-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  margin-top: -40px;
+  color: #FFFFFF;
+}
+
+input [type=text] {
+  word-wrap: break-word;
+  word-break: break-all;
+  
+}
+
+
+@media (max-width:1200px) {
+  .modal-body {
+    width: 1000px;
+  }
+  .modal-window {
+    width: 1000px;
+    
+  }
+  .form-modal {
+    
+    margin-left: 125px;
+    
+    
+  }
+}
+
+@media (max-width:1040px) {
+  .modal-body {
+    width: 800px;
+  }
+  .modal-window {
+    width: 800px;
+    
+  }
+  .form-modal {
+    
+    margin-left: 25px;
+    
+    
+  }
+}
+@media (max-width:850px) {
+  .modal-body {
+    width: 600px;
+  }
+  .modal-window {
+    width: 600px;
+    
+  }
+  .form-modal {
+    padding-right: 200px;
+
+  }
+  .form-modal2 {
+    padding-right: 200px;
+    
+  }
+  .flex-input {
+    display: block;
+  }
+  .form-coment {
+    padding-right: 0px;
+    width: 363px;
+    word-wrap: break-word;
+    margin-left: 17px;
+    padding-right: 0px;
+  }
+  .form-text3 {
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+}
+
+@media (max-width:620px) {
+  .modal-body {
+    width: 300px;
+  }
+  .modal-window {
+    width: 300px;
+    
+  }
+  .form-modal {
+    padding-right: 50px;
+
+  }
+  .form-modal2 {
+    padding-right: 50px;
+    
+  }
+  .flex-input {
+    display: block;
+  }
+  .form-coment {
+    padding-right: 0px;
+    width: 211px;
+    word-wrap: break-word;
+    margin-left: 20px;
+    padding-right: 0px;
+  }
+  .form-text3 {
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+}

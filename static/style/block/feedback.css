@@ -1,0 +1,193 @@
+.feedback {
+    height: 360px;
+    background-image: url(../отзывы.png);
+    background-size: cover;
+    margin: 64px auto 0 auto;
+    max-width: 1440px;
+}
+
+.feedback-block {
+    /* background-color: white; */
+    border-radius: 9px;
+    min-width: 383px;
+    max-width: 383px;
+    height: 186px;
+    background-color: white;
+    margin: 0 auto 0 auto;
+    opacity: 0.4;
+    
+    
+
+}
+
+.feedback-conteiner {
+    display: flex;
+    align-items: center;
+    height: 360px;
+    max-width: 1440px;
+    justify-content: center;
+    
+    
+}
+
+.feedback-block-center {
+    min-width: 536px;
+    max-width: 536px;
+    height: 186px;
+    background-color: white;
+    border-radius: 9px;
+    margin: 0 70px 0 70px;
+    
+    
+    
+}
+
+.feedback-block>img {
+    margin-top: -90px;
+    margin-left: 50px; 
+}
+
+.feedback-block>img:nth-child(2) {
+    margin-top: -90px;
+    margin-left: 200px; 
+}
+.foto-otziv>img {
+    margin-top: -90px;
+    margin-left: 185px;
+}
+
+.feedback-block-center>img{
+    margin-top: -90px;
+    margin-left: 200px;
+}
+
+.feedback-block>p:nth-child(2) {
+    margin-left: 50px;
+}
+.feedback-block>p {
+    width: 445px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+}
+
+.feedback-block-center>p {
+    width: 435px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    margin-top: -13px;
+    margin-left: 50px;
+} 
+
+.testt {
+    width: 405px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    margin-top: 0px;
+    margin-left: -80px;
+}
+
+.textp {
+    width: 435px;
+    overflow: hidden;
+}
+
+.testtt {
+    width: 405px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    margin-top: 0px;
+    margin-left: 80px;
+    overflow: hidden;
+}
+
+.textpp {
+    width: 380px;
+    overflow: hidden;
+}
+
+/*  /*//* tablet-version */ /*/  */
+
+.feedback-conteiner-tablet {
+    max-width: 1440px;
+    padding-top: 97px;
+}
+.feedback-block-tablet {
+    min-width: 436px;
+    max-width: 436px;
+    height: 186px;
+    background-color: white;
+    border-radius: 9px;
+    margin-bottom: 40px;
+    text-align: center;
+    margin: 0 auto 109px auto;
+}
+
+.feedback-block-tablet>img {
+    margin-top: -90px;
+}
+
+.feedback-block-tablet>p {
+    max-width: 445px;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+
+.feedback-block-tablet:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width:1200px) {
+    .feedback-conteiner {
+        display: none;
+    }
+    .feedback-conteiner-tablet {
+        display: block;
+    }
+    .feedback {
+        height: 960px;
+    }
+
+}
+@media (min-width:1200px) {
+    .feedback-conteiner-tablet {
+        display: none;
+    }
+}
+
+@media (max-width:400px) {
+    .feedback-block-tablet {
+        max-width: 320px;
+        min-width: 320px;
+    }
+    .feedback-block-tablet>p {
+        margin-left: 7px;
+    }
+}
+
+
+
